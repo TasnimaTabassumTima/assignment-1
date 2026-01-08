@@ -1,0 +1,54 @@
+/* Common */
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    padding:12.5px 16px ;
+    width: fit-content;
+    background-color: #469165;
+    color: #FFFFFF;
+    border: 2px solid #469165;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+/* Navigation Bar */
+#navigation{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+#navigation .logo{
+    max-width: 139px;
+}
+
+#navigation .links{
+    max-width: 365px;
+    display: flex;
+}
+
+#navigation .links ul{
+    display: flex;
+    gap:32px ;
+    list-style: none;
+}
+
+#navigation .links ul a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 152%;
+    color: #000000;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+#navigation .links ul a:hover{
+    background-color: rgba(10, 146, 6, 0.378);
+}
+ 
