@@ -311,3 +311,60 @@
     color:#001931 ;
 }
 
+/* Challenge part */
+#challenge{
+    padding:0 120px 120px;
+    justify-content: center;
+}
+
+#challenge .challenge-parent{
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    justify-content: center;
+    text-align: center;
+}
+
+.challenge-parent .center-1 h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000e1c;
+    margin-bottom:16px;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.challenge-parent .center-1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom:24px;
+}
+
+.challenge-parent .center-2 .btn{
+    max-width: 194px;
+    display: inline-flex;
+    gap: 10px;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.challenge-parent .center-2 .btn span{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.challenge-parent .center-2 .btn img{
+    max-height: 20px;
+    max-height: 20px;
+    vertical-align: middle;
+}
+
+.challenge-parent .center-2 p{
+    margin-top:16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+}
