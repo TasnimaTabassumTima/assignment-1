@@ -141,7 +141,7 @@
     align-items: center;
 }
 
-.banner-btn ul .btn p{
+.banner-btn ul .btn span{
     margin-right: 10px;
 }
 
@@ -175,7 +175,7 @@
     margin:16px 10px 16px;
 }
 
-.banner-btn ul .btn-2 p{
+.banner-btn ul .btn-2 span{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
@@ -185,7 +185,7 @@
 }
 
 
-/* Main section */
+/* Main section1 */
 #section1{
     max-width: 1600px;
     text-align: center;
@@ -217,7 +217,8 @@
 }
 
 .section-cards .card{
-    /* border: 1px solid black; */
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 8px;
     box-shadow: 0 0 8px 0 #00000019;
     justify-content: center;
@@ -226,15 +227,87 @@
     padding: 24px 24px;
 }
 
+.section-cards .card:hover{
+    background-color: #81c8873c;
+    cursor: pointer;
+}
+
 .card .bck-color{
     background-color:#F95555 ;
     border-radius: 50%;
     max-width: 60px;
+    /* max-height: 60px; */
     margin: 0 auto;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
+
 .card .bck-color .icon{
     background-color:#F95555 ;
-    border-radius: 50%;
+    border-radius: 100%;
     max-width: 32px;
-    max-height: 32px;
+    /* max-height: 32px; */
+    margin: 14px;
 }
+
+/* Main section2 */
+#section2{
+    padding: 120px;
+}
+
+#section2 .parent{
+    display: flex;
+}
+
+.parent .child-left{
+    border-radius: 12px;
+    max-width: 600px;
+    max-height: 600px;
+}
+.parent .child-right{
+    padding: 102px 0 60px;
+    align-items: center;
+}
+
+.child-left .grand-child-right{
+    max-width: 700px;
+}
+
+.grand-child-right .center-top h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+}
+
+.grand-child-right .center-top h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin: 16px 0;
+}
+
+.grand-child-right .center-top p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.grand-child-right .center-bottom ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.center-bottom ul li{
+    margin-bottom: 16px;
+    display: flex;
+    gap: 6px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color:#001931 ;
+}
+
