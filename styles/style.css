@@ -368,3 +368,54 @@
     color: #627382;
     line-height: 20px;
 }
+
+/* Footer */
+footer{
+    background-color:#001931 ;
+}
+
+.footer-head{
+    padding: 120px 120px 80px;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.footer-links p{
+color: #ffffff7f;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+}
+.footer-links ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li{
+    background-color: #ffffff7f;
+    border-radius: 50%;
+    /* background-size: px  */
+    /* max-width:30px ; */
+    /* max-height: 30px; */
+}
+
+footer hr{
+    margin: 0 120px;
+    border: none;
+    height:2px;
+    background-color:#ffffff1f ;
+}
+
+footer .last{
+    padding: 20px 0 30px 0;
+    font-size: 16px;
+    font-weight:400 ;
+    color: #FAFAFA;
+    line-height: 24px;
+    text-align: center;
+}
