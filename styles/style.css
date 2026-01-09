@@ -96,6 +96,7 @@
     font-weight: 500;
     color: #469165;
     margin-bottom:16px ;
+    
 }
 
 .banner-content h1{
@@ -402,6 +403,10 @@ line-height: 28px;
     /* background-size: px  */
     /* max-width:30px ; */
     /* max-height: 30px; */
+}
+
+.footer-links ul li:hover{
+    background-color: #0bd71968;
 }
 
 footer hr{
