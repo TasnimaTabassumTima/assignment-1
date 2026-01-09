@@ -407,6 +407,7 @@ line-height: 28px;
 
 .footer-links ul li:hover{
     background-color: #0bd71968;
+    cursor: pointer;
 }
 
 footer hr{
